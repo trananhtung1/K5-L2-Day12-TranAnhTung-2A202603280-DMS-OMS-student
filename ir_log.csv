@@ -1,0 +1,5 @@
+﻿frame_id,source,phenomenon,affected_field,effect_on_label
+S02_ir,IR_sim,"Cùng ghế rear_left: bản gán RGB ghi unknown, còn trên IR-sim ghi no.",child_seat.occupied,Đánh giá độ nhìn rõ lòng ghế riêng ở mỗi ảnh; bản gán IR-sim xác định ghế trống.
+S01_ir,IR_sim,Vật ở rear_middle được gán cup trên cả RGB và IR-sim; người review chọn other trên cả hai.,object.type,"Bản gán giữ cup; nhãn không đổi giữa hai chế độ, nhưng hai người chưa thống nhất mức đủ rõ để nhận diện cốc theo hình dạng."
+D03,real_IR,"Tài xế quay nghiêng, bốn điểm mắt phải khuất theo ghi nhận khi gán.",face13.right_eye_*,"Cả bốn điểm có outside=1. Thuộc tính eye_right=open của bản gán còn cảnh báo, peer chọn unknown."
+D05,real_IR,Mắt phải ở phía khuất của mặt nghiêng; bản gán có bốn điểm mắt phải ngoài vùng có thể định vị.,face.eye_right,Giữ open theo quyết định của người gán; độ mở của mắt là điểm khác biệt so với unknown của peer.
