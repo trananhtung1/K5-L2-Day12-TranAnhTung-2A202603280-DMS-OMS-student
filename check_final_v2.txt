@@ -1,0 +1,9 @@
+File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=14, face=12, face13=6, hand=11, infant_seat=6, object=6, person=12, phone=1
+  [WARN] D03.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+  [WARN] D05.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+Kết quả: 0 lỗi, 2 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+G12 dùng schema có child_seat.occupied=yes theo xác nhận của coach do sinh viên cung cấp. Schema ban đầu chỉ có unknown/no. Sáu khung áp dụng giá trị yes: S01, S03, S07 (bản RGB và IR).
+D03.png — Mặt nghiêng khiến bốn mốc mắt phải khuất. Người gán giữ eye_right=open và đánh outside cho các mốc. Peer chọn unknown; quyết định giữ nhãn đã được ghi lại.
+D05.png — Mặt nghiêng khiến bốn mốc mắt phải khuất. Người gán giữ eye_right=open và đánh outside cho các mốc. Peer chọn unknown; quyết định giữ nhãn đã được ghi lại.
